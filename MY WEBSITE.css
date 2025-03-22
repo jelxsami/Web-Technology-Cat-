@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    background-image: url(../IMG_20250322_110514.jpg);
+}
+
+h1 {
+    color:black;
+    text-align: center;
+}
+
+h1{
+    animation: 10s linear 0s infinite running mycolorchange;
+}
+@keyframes mycolorchange{
+    20%{color: blue;}
+    40%{color: red;}
+    60%{color: gold;}
+    100%{color: greenyellow;}
+}
+
+p{
+    color:black;
+    font-family: 20%;
+    font-family: 40%;
+}
+
+h2{
+    color: blue;
+    animation: 5s linear 0s  infinite myscale;
+}
+@keyframes myscale{
+    50%{transform: scale(0.5,0.5);}
+    70%{color: gold;}
+    100%{color: red}
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+ td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color:palegreen;
+    color: white;
+    padding: 20px;
+  
+}
+
+a {
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
